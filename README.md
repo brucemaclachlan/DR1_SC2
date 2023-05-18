@@ -1,6 +1,6 @@
-# Welcome to GitHub Desktop!
+This is a repository that relates to the paper Chen et al 2023 in Cell Reports titled:
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Structural definition of HLA class-II presented SARS-CoV-2 epitopes reveal a novel mechanism to escape pre-existing CD4+ T cell immunity 
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
-Bruce MacLachlan
+I intend to neaten up and generalise this analysis pipeline in the future..
+- Bruce
