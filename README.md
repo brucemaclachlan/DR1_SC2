@@ -6,10 +6,10 @@ This is a repository that relates to the paper Chen et al 2023 in Cell Reports
 Using this repository, all structural figures from the above manuscript can be recreated from coordinate (.pdb) and structure factor (.mtz) files available via the PDB.
 
 The analysis consists of two scripts:
- -- pMHC_analyse_v2.py
- 	--- This creates the general overviews of each structure as well as performs omit map analysis
- -- pocket_analysis_v2.py
- 	--- This creates the views of each HLA-II pocket as well as a general view cut through the HLA-II groove
+*pMHC_analyse_v2.py
+**This creates the general overviews of each structure as well as performs omit map analysis
+*pocket_analysis_v2.py
+**This creates the views of each HLA-II pocket as well as a general view cut through the HLA-II groove
 	
 Both can be run on any copy of the asymmetric unit by signalling the chains of the complex using --chains. 
 The chains argument must be in the order DRA, DRB, peptide; typically (and for these structures, always) --chains ABC or --chains DEF etc.
