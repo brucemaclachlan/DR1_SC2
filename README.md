@@ -16,8 +16,8 @@ The chains argument must be in the order DRA, DRB, peptide; typically (and for t
 
 ## Getting Started
 
-To run both analyses on every structure, use:
-	--- analyse_everything.sh
+To run both analyses on every structure, use:\newline
+* analyse_everything.sh\newline
 This should generate all structural images, providing the .pdb and .mtz files are downloaded, named accordingly and located within the working directory.
 
 The bash file will demonstrate how to setup arguments, however, use --help on either script to get information about arguments for each.
@@ -27,21 +27,21 @@ If you wish to run the analysis on your own structures, please add your peptide 
 
 ## Dependencies
 
-The following packages are required in your python environment (tested on Python 3.8.13 - Anaconda distribution - linux-64)
- --- pymol-open-source
+The following packages are required in your python environment\newline (tested on Python 3.8.13 - Anaconda distribution - linux-64)\newline
+* pymol-open-source
  
  The scripts make a number of subprocess.call requests and therefore require the following in your path, all of which are achieved through installing CCP4 or Phenix or both:
  
- Phenix:
- --- phenix.refine
- --- phenix.mtz2map
- --- phenix.pdbtools
+ Phenix:\newline
+* phenix.refine\newline
+* phenix.mtz2map\newline
+* phenix.pdbtools\newline
  
- CCP4:
- --- refmac5
- --- pdbcur
- --- mapmask
- --- fft
+ CCP4:\newline
+* refmac5\newline
+* pdbcur\newline
+* mapmask\newline
+* fft\newline
  
  For omit map analysis there are two options. Use pMHC_analyse_v2.py --omit_mode [phenix/refmac] to select. Refmac is faster, Phenix is slower. Phenix mode may be more robust as it will implement simmulated annealing after atom omission.
 
